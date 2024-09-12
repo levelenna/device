@@ -2,11 +2,60 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <title>Интернет-магазин Device | Редкие вещи по всей России</title>
   </head>
   <body>
+    <header class="page-header">
+      <h1 class="visually-hidden">Интернет-магазин Device</h1>
+      <a class="navigation-logo" href="#">
+        <img class="page-header-logo" src="" alt="Логотип Device">
+      </a>
+      <form class="search-form" action="search" method="get">
+        <input class="field" type="search" placeholder="Текст поиска">
+        <input class="search-submit" type="submit" value="Найти">
+      </form>
+      <nav class="navigation user-header-navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Войти</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Сравнить</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Корзина</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="navigation header-navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">КАТАЛОГ ТОВАРОВ</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="delivery.html">ДОСТАВКА</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="warranty.html">ГАРАНТИЯ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <main class="main-index">
+      <section class="product-gallery">
+        <h2 class="visually-hidden">Лучшие товары</h2>
+        <ul class="banner-product-list">
+          <li class="banner-product-item">
+            <h3 class="banner-product-title">
+              Порхает как бабочка, жалит как пчела!
+            </h3>
+            <p class="banner-product-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
+            </p>
+            <a class="button button-all" href="catalog/quadcopter.html">ПОДРОБНЕЕ</a>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
